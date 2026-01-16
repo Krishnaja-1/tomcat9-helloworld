@@ -11,7 +11,7 @@ build:
   image_template: tomcat9
 
 deploy:
-  context: sranjan1995/DEV
+  context: nithinc-cloud/DEV
   replicas: 2
   session_affinity: ClientIP
   port: 
